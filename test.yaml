@@ -78,7 +78,6 @@ info:
       
     </td>
     <td>
-            <img src="https://raw.githubusercontent.com/pagopa/pn-delivery/e6f1db9eac9ace7fc2ad0fe6de241ab4525b6b6a/docs/openapi/images/verifica-accettazione-richiesta-invio.png" height="731" width="489" alt="Verifica accettazione richiesta" />
 
       ### Ciclo di vita della notifica lato mittente
       
@@ -123,6 +122,8 @@ info:
       Per effettuare una richiesta di invio notifica, invocare l'operazione 
       [sendNewNotification](#/NewNotification/sendNewNotification) utilizzando i riferimenti dei file 
       caricati ottenuti al punto (1.b).
+      <img src="https://raw.githubusercontent.com/pagopa/pn-delivery/e6f1db9eac9ace7fc2ad0fe6de241ab4525b6b6a/docs/openapi/images/verifica-accettazione-richiesta-invio.png" height="731" width="489" alt="Verifica accettazione richiesta" />
+
       
       </br>
       </br>
