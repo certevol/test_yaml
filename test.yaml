@@ -87,7 +87,7 @@ info:
       
       #### 1.a. Richiesta presigned Url
       
-      Invocare l'operazione [presignedUploadRequest](#/NewNotification/presignedUploadRequest) 
+      Invocare l'operazione [presignedUploadRequest](/operations/presignedUploadRequest) 
       con cui prenotare il caricamento. Possono essere effettuate un massimo di <span id="numberOfPresignedRequest">15</span> prenotazioni di caricamento
       per ogni richiesta.</br>
       In risposta si ottengono le seguenti informazioni:<br/>
