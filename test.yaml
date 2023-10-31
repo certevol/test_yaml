@@ -79,13 +79,13 @@ info:
     </td>
     <td>
 
-      ### Ciclo di vita della notifica lato mittente
+      # Ciclo di vita della notifica lato mittente
       
-      #### 1. Caricamento dei documenti della notifica
+      ## 1. Caricamento dei documenti della notifica
       
       Prima di invocare la richiesta di notifica è necessario caricare i documenti della notifica (documenti e bollettini di pagamento).
       
-      #### 1.a. Richiesta presigned Url
+      ### 1.a. Richiesta presigned Url
       
       Invocare l'operazione [presignedUploadRequest](/operations/presignedUploadRequest) 
       con cui prenotare il caricamento. Possono essere effettuate un massimo di <span id="numberOfPresignedRequest">15</span> prenotazioni di caricamento
