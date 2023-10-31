@@ -13,6 +13,35 @@ info:
       _"richiesta di notifica"_ (accettata o rifiutata) e, in caso di richiesta accettata, 
       sulle comunicazioni effettuate, o solo tentate, nei confronti dei destinatari della notifica.
 
+       ## 3. Verifica accettazione richiesta di invio notifica
+
+      Per questa verifica possono essere utilizzate due modalità:
+      
+      1. __richiesta puntale__: consigliato solo ai fini di test
+      2. __lettura da stream configurato__: consigliato per ambienti di produzione
+      
+      La differenza tra le due modalità è nell'interazione e nell'efficienza.
+      
+      Con la modalità _"richiesta puntuale"_ è necessario l'invocazione per ogni notifica,
+      mentre con la modalità _"stream"_ è possibile avere gli aggiornamenti
+      di stato di più notifiche con una sola invocazione.
+      
+      ### 3.1 Richiesta puntuale di verifica accettazione
+
+      Questa modalità è resa disponibile solo ai fini di test o di eventuali operazioni
+      di allineamento poiché richiede l'invio di una richiesta per ogni notifica.
+      Se il passo (2) avviene con successo si utilizza l'operazione 
+      [getNotificationRequestStatus](#/SenderReadB2B/getNotificationRequestStatus)
+      per ottenere informazioni riguardo allo stato della "richiesta di invio di notifica". </br>
+      Nel campo _notificationRequestStatus_ sarà indicato:</br>
+      >\- <strong>WAITING:</strong> se la validazione è ancora in corso.</br>
+      \- <strong>ACCEPTED:</strong> se richiesta di notifica accettata, lo _IUN_ è valorizzato.</br>
+      \- <strong>REFUSED:</strong> se richiesta di notifica rifiutata, è valorizzato il campo _errors_.</br>
+      </br>
+      </br>
+      </br>
+
+
     ## Operazioni utilizzate, in sequenza temporale
     <table>
     <tr>
