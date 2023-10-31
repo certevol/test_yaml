@@ -24,7 +24,7 @@ info:
        </br>
      
       
-      #### 3. Verifica accettazione richiesta di invio notifica
+      ## 3. Verifica accettazione richiesta di invio notifica
 
       Per questa verifica possono essere utilizzate due modalità:
       
@@ -37,7 +37,7 @@ info:
       mentre con la modalità _"stream"_ è possibile avere gli aggiornamenti
       di stato di più notifiche con una sola invocazione.
       
-      #### 3.1 Richiesta puntuale di verifica accettazione
+      ### 3.1 Richiesta puntuale di verifica accettazione
 
       Questa modalità è resa disponibile solo ai fini di test o di eventuali operazioni
       di allineamento poiché richiede l'invio di una richiesta per ogni notifica.
@@ -52,7 +52,7 @@ info:
       </br>
       </br>
 
-      #### 3.2 Richiesta avanzamento via "stream" di verifica di accettazione
+      ### 3.2 Richiesta avanzamento via "stream" di verifica di accettazione
 
       Questa modalità è consigliata. Per essere fruita è necessaria un'operazione preliminare 
       tramite la chiamata alla API [createEventStream](https://petstore.swagger.io/?url=https%3A%2F%2Fraw.githubusercontent.com%2Fpagopa%2Fpn-delivery-push%2Fdevelop%2Fdocs%2Fopenapi%2Fapi-external-b2b-webhook.yaml#/Streams/createEventStream)
