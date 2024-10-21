@@ -1,0 +1,1031 @@
+Fetched JSON Data
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Generated OpenAPI Spec",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/demandPaymentNotice": {
+      "post": {
+        "summary": "demandPaymentNotice",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/demandPaymentNotice"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/demandPaymentNotice"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/demandPaymentNoticeResponse": {
+      "post": {
+        "summary": "demandPaymentNoticeResponse",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/demandPaymentNoticeResponse"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/demandPaymentNoticeResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/verificaBollettinoReq": {
+      "post": {
+        "summary": "verificaBollettinoReq",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/verificaBollettinoReq"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/verificaBollettinoReq"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/verificaBollettinoRes": {
+      "post": {
+        "summary": "verificaBollettinoRes",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/verificaBollettinoRes"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/verificaBollettinoRes"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/verifyPaymentNoticeReq": {
+      "post": {
+        "summary": "verifyPaymentNoticeReq",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/verifyPaymentNoticeReq"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/verifyPaymentNoticeReq"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/verifyPaymentNoticeRes": {
+      "post": {
+        "summary": "verifyPaymentNoticeRes",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/verifyPaymentNoticeRes"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/verifyPaymentNoticeRes"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/activatePaymentNoticeReq": {
+      "post": {
+        "summary": "activatePaymentNoticeReq",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/activatePaymentNoticeReq"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/activatePaymentNoticeReq"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/activatePaymentNoticeRes": {
+      "post": {
+        "summary": "activatePaymentNoticeRes",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/activatePaymentNoticeRes"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/activatePaymentNoticeRes"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/activatePaymentNoticeV2": {
+      "post": {
+        "summary": "activatePaymentNoticeV2",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/activatePaymentNoticeV2"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/activatePaymentNoticeV2"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/activatePaymentNoticeV2Response": {
+      "post": {
+        "summary": "activatePaymentNoticeV2Response",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/activatePaymentNoticeV2Response"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/activatePaymentNoticeV2Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sendPaymentOutcomeReq": {
+      "post": {
+        "summary": "sendPaymentOutcomeReq",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/sendPaymentOutcomeReq"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/sendPaymentOutcomeReq"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sendPaymentOutcomeRes": {
+      "post": {
+        "summary": "sendPaymentOutcomeRes",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/sendPaymentOutcomeRes"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/sendPaymentOutcomeRes"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sendPaymentOutcomeV2": {
+      "post": {
+        "summary": "sendPaymentOutcomeV2",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/sendPaymentOutcomeV2"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/sendPaymentOutcomeV2"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/sendPaymentOutcomeV2Response": {
+      "post": {
+        "summary": "sendPaymentOutcomeV2Response",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/sendPaymentOutcomeV2Response"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/sendPaymentOutcomeV2Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/nodoInviaFlussoRendicontazioneRequest": {
+      "post": {
+        "summary": "nodoInviaFlussoRendicontazioneRequest",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/nodoInviaFlussoRendicontazioneRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nodoInviaFlussoRendicontazioneRequest"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/nodoInviaFlussoRendicontazioneResponse": {
+      "post": {
+        "summary": "nodoInviaFlussoRendicontazioneResponse",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/nodoInviaFlussoRendicontazioneResponse"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nodoInviaFlussoRendicontazioneResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/nodoChiediTemplateInformativaPSP": {
+      "post": {
+        "summary": "nodoChiediTemplateInformativaPSP",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/nodoChiediTemplateInformativaPSP"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nodoChiediTemplateInformativaPSP"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/nodoChiediTemplateInformativaPSPResponse": {
+      "post": {
+        "summary": "nodoChiediTemplateInformativaPSPResponse",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/nodoChiediTemplateInformativaPSPResponse"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nodoChiediTemplateInformativaPSPResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/nodoChiediInformativaPA": {
+      "post": {
+        "summary": "nodoChiediInformativaPA",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/nodoChiediInformativaPA"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nodoChiediInformativaPA"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/nodoChiediInformativaPAResponse": {
+      "post": {
+        "summary": "nodoChiediInformativaPAResponse",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/nodoChiediInformativaPAResponse"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nodoChiediInformativaPAResponse"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/nodoChiediCatalogoServiziV2": {
+      "post": {
+        "summary": "nodoChiediCatalogoServiziV2",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/nodoChiediCatalogoServiziV2"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nodoChiediCatalogoServiziV2"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/nodoChiediCatalogoServiziV2Response": {
+      "post": {
+        "summary": "nodoChiediCatalogoServiziV2Response",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/nodoChiediCatalogoServiziV2Response"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nodoChiediCatalogoServiziV2Response"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "demandPaymentNotice": {
+        "type": "object",
+        "properties": {
+          "bodyrequest": {
+            "type": "object",
+            "properties": {
+              "idPSP": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "idBrokerPSP": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "idChannel": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "password": {
+                "type": "stPassword"
+              },
+              "idSoggettoServizio": {
+                "type": "string"
+              },
+              "datiSpecificiServizio": {
+                "type": "base64Binary"
+              }
+            }
+          }
+        }
+      },
+      "demandPaymentNoticeResponse": {
+        "type": "object",
+        "properties": {
+          "bodyresponse": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      },
+      "verificaBollettinoReq": {
+        "type": "object",
+        "properties": {
+          "bodyrequest": {
+            "type": "object",
+            "properties": {
+              "idPSP": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "idBrokerPSP": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "idChannel": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "password": {
+                "type": "stPassword"
+              },
+              "ccPost": {
+                "type": "string",
+                "pattern": "[0-9]{12}"
+              },
+              "noticeNumber": {
+                "type": "stNoticeNumber"
+              }
+            }
+          }
+        }
+      },
+      "verificaBollettinoRes": {
+        "type": "object",
+        "properties": {
+          "bodyresponse": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      },
+      "verifyPaymentNoticeReq": {
+        "type": "object",
+        "properties": {
+          "bodyrequest": {
+            "type": "object",
+            "properties": {
+              "idPSP": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "idBrokerPSP": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "idChannel": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "password": {
+                "type": "stPassword"
+              },
+              "qrCode": {
+                "type": "ctQrCode"
+              }
+            }
+          }
+        }
+      },
+      "verifyPaymentNoticeRes": {
+        "type": "object",
+        "properties": {
+          "bodyresponse": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      },
+      "activatePaymentNoticeReq": {
+        "type": "object",
+        "properties": {
+          "bodyrequest": {
+            "type": "object",
+            "properties": {
+              "idPSP": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "idBrokerPSP": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "idChannel": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "password": {
+                "type": "stPassword"
+              },
+              "idempotencyKey": {
+                "type": "string",
+                "pattern": "[0-9]{11}_[a-zA-Z0-9]{10}"
+              },
+              "qrCode": {
+                "type": "ctQrCode"
+              },
+              "expirationTime": {
+                "type": "integer"
+              },
+              "amount": {
+                "type": "stAmount"
+              },
+              "dueDate": {
+                "type": "stISODate"
+              },
+              "paymentNote": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 210
+              }
+            }
+          }
+        }
+      },
+      "activatePaymentNoticeRes": {
+        "type": "object",
+        "properties": {
+          "bodyresponse": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      },
+      "activatePaymentNoticeV2": {
+        "type": "object",
+        "properties": {
+          "bodyrequest": {
+            "type": "object",
+            "properties": {
+              "idPSP": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "idBrokerPSP": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "idChannel": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "password": {
+                "type": "stPassword"
+              },
+              "idempotencyKey": {
+                "type": "string",
+                "pattern": "[0-9]{11}_[a-zA-Z0-9]{10}"
+              },
+              "qrCode": {
+                "type": "ctQrCode"
+              },
+              "expirationTime": {
+                "type": "integer"
+              },
+              "amount": {
+                "type": "stAmount"
+              },
+              "dueDate": {
+                "type": "stISODate"
+              },
+              "paymentNote": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 210
+              },
+              "paymentMethod": {
+                "type": "string",
+                "maxLength": 4
+              },
+              "touchPoint": {
+                "type": "string",
+                "maxLength": 10
+              }
+            }
+          }
+        }
+      },
+      "activatePaymentNoticeV2Response": {
+        "type": "object",
+        "properties": {
+          "bodyresponse": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      },
+      "sendPaymentOutcomeReq": {
+        "type": "object",
+        "properties": {
+          "bodyrequest": {
+            "type": "object",
+            "properties": {
+              "idPSP": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "idBrokerPSP": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "idChannel": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "password": {
+                "type": "stPassword"
+              },
+              "idempotencyKey": {
+                "type": "string",
+                "pattern": "[0-9]{11}_[a-zA-Z0-9]{10}"
+              },
+              "paymentToken": {
+                "type": "stPaymentToken"
+              },
+              "outcome": {
+                "type": "stOutcome"
+              },
+              "details": {
+                "type": "ctOutcomeDetails"
+              }
+            }
+          }
+        }
+      },
+      "sendPaymentOutcomeRes": {
+        "type": "object",
+        "properties": {
+          "bodyresponse": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      },
+      "sendPaymentOutcomeV2": {
+        "type": "object",
+        "properties": {
+          "bodyrequest": {
+            "type": "object",
+            "properties": {
+              "idPSP": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "idBrokerPSP": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "idChannel": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 35
+              },
+              "password": {
+                "type": "stPassword"
+              },
+              "idempotencyKey": {
+                "type": "string",
+                "pattern": "[0-9]{11}_[a-zA-Z0-9]{10}"
+              },
+              "paymentTokens": {
+                "type": "stPaymentTokens"
+              },
+              "outcome": {
+                "type": "stOutcome"
+              },
+              "details": {
+                "type": "ctOutcomeDetailsV2"
+              }
+            }
+          }
+        }
+      },
+      "sendPaymentOutcomeV2Response": {
+        "type": "object",
+        "properties": {
+          "bodyresponse": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      },
+      "nodoInviaFlussoRendicontazioneRequest": {
+        "type": "object",
+        "properties": {
+          "bodyrequest": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      },
+      "nodoInviaFlussoRendicontazioneResponse": {
+        "type": "object",
+        "properties": {
+          "bodyresponse": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      },
+      "nodoChiediTemplateInformativaPSP": {
+        "type": "object",
+        "properties": {
+          "bodyrequest": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      },
+      "nodoChiediTemplateInformativaPSPResponse": {
+        "type": "object",
+        "properties": {
+          "bodyresponse": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      },
+      "nodoChiediInformativaPA": {
+        "type": "object",
+        "properties": {
+          "bodyrequest": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      },
+      "nodoChiediInformativaPAResponse": {
+        "type": "object",
+        "properties": {
+          "bodyresponse": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      },
+      "nodoChiediCatalogoServiziV2": {
+        "type": "object",
+        "properties": {
+          "bodyrequest": {
+            "type": "object",
+            "properties": {
+              "identificativoPSP": {
+                "type": "stText35"
+              },
+              "identificativoIntermediarioPSP": {
+                "type": "stText35"
+              },
+              "identificativoCanale": {
+                "type": "stText35"
+              },
+              "password": {
+                "type": "stPassword"
+              },
+              "identificativoDominio": {
+                "type": "stText35"
+              },
+              "categoria": {
+                "type": "stText35"
+              },
+              "commissione": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "nodoChiediCatalogoServiziV2Response": {
+        "type": "object",
+        "properties": {
+          "bodyresponse": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      }
+    }
+  }
+}
