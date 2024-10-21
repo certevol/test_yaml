@@ -1,0 +1,188 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Generated OpenAPI Spec",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/nodoChiediElencoFlussiRendicontazione": {
+      "post": {
+        "summary": "nodoChiediElencoFlussiRendicontazione",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/nodoChiediElencoFlussiRendicontazione"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nodoChiediElencoFlussiRendicontazione"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/nodoChiediElencoFlussiRendicontazioneRisposta": {
+      "post": {
+        "summary": "nodoChiediElencoFlussiRendicontazioneRisposta",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/nodoChiediElencoFlussiRendicontazioneRisposta"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nodoChiediElencoFlussiRendicontazioneRisposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/nodoChiediFlussoRendicontazione": {
+      "post": {
+        "summary": "nodoChiediFlussoRendicontazione",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/nodoChiediFlussoRendicontazione"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nodoChiediFlussoRendicontazione"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/nodoChiediFlussoRendicontazioneRisposta": {
+      "post": {
+        "summary": "nodoChiediFlussoRendicontazioneRisposta",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/nodoChiediFlussoRendicontazioneRisposta"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/nodoChiediFlussoRendicontazioneRisposta"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "nodoChiediElencoFlussiRendicontazione": {
+        "type": "object",
+        "properties": {
+          "bodyrequest": {
+            "type": "object",
+            "properties": {
+              "identificativoIntermediarioPA": {
+                "type": "stText35"
+              },
+              "identificativoStazioneIntermediarioPA": {
+                "type": "stText35"
+              },
+              "password": {
+                "type": "stPassword"
+              },
+              "identificativoDominio": {
+                "type": "stText35"
+              },
+              "identificativoPSP": {
+                "type": "stText35"
+              }
+            }
+          }
+        }
+      },
+      "nodoChiediElencoFlussiRendicontazioneRisposta": {
+        "type": "object",
+        "properties": {
+          "bodyresponse": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      },
+      "nodoChiediFlussoRendicontazione": {
+        "type": "object",
+        "properties": {
+          "bodyrequest": {
+            "type": "object",
+            "properties": {
+              "identificativoIntermediarioPA": {
+                "type": "stText35"
+              },
+              "identificativoStazioneIntermediarioPA": {
+                "type": "stText35"
+              },
+              "password": {
+                "type": "stPassword"
+              },
+              "identificativoDominio": {
+                "type": "stText35"
+              },
+              "identificativoPSP": {
+                "type": "stText35"
+              },
+              "identificativoFlusso": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "nodoChiediFlussoRendicontazioneRisposta": {
+        "type": "object",
+        "properties": {
+          "bodyresponse": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      }
+    }
+  }
+}
