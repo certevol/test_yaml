@@ -1,0 +1,230 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Generated OpenAPI Spec",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/pspNotifyPaymentReq": {
+      "post": {
+        "summary": "pspNotifyPaymentReq",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/pspNotifyPaymentReq"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/pspNotifyPaymentReq"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/pspNotifyPaymentRes": {
+      "post": {
+        "summary": "pspNotifyPaymentRes",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/pspNotifyPaymentRes"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/pspNotifyPaymentRes"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/pspNotifyPaymentV2": {
+      "post": {
+        "summary": "pspNotifyPaymentV2",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/pspNotifyPaymentV2"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/pspNotifyPaymentV2"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/pspNotifyPaymentV2Res": {
+      "post": {
+        "summary": "pspNotifyPaymentV2Res",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/pspNotifyPaymentV2Res"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/pspNotifyPaymentV2Res"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "pspNotifyPaymentReq": {
+        "type": "object",
+        "properties": {
+          "requestBody": {
+            "type": "object",
+            "properties": {
+              "idPSP": {
+                "type": "stText35"
+              },
+              "idBrokerPSP": {
+                "type": "stText35"
+              },
+              "idChannel": {
+                "type": "stText35"
+              },
+              "paymentToken": {
+                "type": "stPaymentToken"
+              },
+              "paymentDescription": {
+                "type": "stText140"
+              },
+              "fiscalCodePA": {
+                "type": "stFiscalCodePA"
+              },
+              "companyName": {
+                "type": "stText140"
+              },
+              "officeName": {
+                "type": "stText140"
+              },
+              "creditorReferenceId": {
+                "type": "stText35"
+              },
+              "debtAmount": {
+                "type": "stAmount"
+              },
+              "transferList": {
+                "type": "ctTransferListPSP"
+              },
+              "standin": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      },
+      "pspNotifyPaymentRes": {
+        "type": "object",
+        "properties": {
+          "responseBody": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      },
+      "pspNotifyPaymentV2": {
+        "type": "object",
+        "properties": {
+          "bodyrequest": {
+            "type": "object",
+            "properties": {
+              "idPSP": {
+                "type": "stText35"
+              },
+              "idBrokerPSP": {
+                "type": "stText35"
+              },
+              "idChannel": {
+                "type": "stText35"
+              },
+              "transactionId": {
+                "type": "stText35"
+              },
+              "totalAmount": {
+                "type": "stAmount"
+              },
+              "fee": {
+                "type": "stAmount"
+              },
+              "primaryCiIncurredFee": {
+                "type": "stAmount"
+              },
+              "idBundle": {
+                "type": "stText70"
+              },
+              "idCiBundle": {
+                "type": "stText70"
+              },
+              "timestampOperation": {
+                "type": "stISODateTime"
+              },
+              "paymentList": {
+                "type": "ctPaymentListV2"
+              },
+              "additionalPaymentInformations": {
+                "type": "ctAdditionalPaymentInformations"
+              },
+              "standin": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      },
+      "pspNotifyPaymentV2Res": {
+        "type": "object",
+        "properties": {
+          "bodyresponse": {
+            "type": "object",
+            "properties": {}
+          }
+        }
+      }
+    }
+  }
+}
